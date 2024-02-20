@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.heading {
+    color: #059522;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 600;
+    font-size: 75px;
+    margin-bottom: 1rem;
+}
+#digital-clock {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    color: #059522;
+    font-size: 50px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width:1145px) {
+    .heading {
+        font-size: 60px;
+    }
+    #digital-clock {
+        padding: 0.7rem 0.7rem;
+        font-size: 40px;
+        letter-spacing: 6px;
+    }
+}
+@media only screen and (max-width:945px) {
+    .heading {
+        font-size: 50px;
+    }
+    #digital-clock {
+        height: 8%;
+        padding: 0.4rem 0.4rem;
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+}
+@media only screen and (max-width:645px) {
+    .heading {
+       
+        font-size: 45px;
+    }
+    #digital-clock {
+        height: 7%;
+        width: 33%;
+        padding: 0rem 0.4rem;
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+}
+@media only screen and (max-width:550px) {
+    .heading {
+        font-size: 38px;
+    }
+    #digital-clock {
+        height: 5%;
+        width: 36%;
+        padding: 0rem 0rem;
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+}
