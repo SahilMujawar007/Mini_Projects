@@ -1,0 +1,83 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container-1,
+.container-4 {
+    background-image: url(https://images.pexels.com/photos/4101555/pexels-photo-4101555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    min-height: 100vh;
+  
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-2 {
+  background-image: url(./images/Nature2.jpg);
+  min-height: 500px;
+}
+.container-3 {
+    background-image: url(./images/nature3.jpg);
+    min-height: 500px;
+}
+.container-4{
+    background-image: url(./images/nature4.jpg);
+    min-height: 100vh;
+}
+
+.imgtext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.imgpara {
+    background: #60dbf389;
+    padding: 10px;
+    
+}
+.imgpara2,
+.imgpara3 {
+    display: inline;
+    padding: 10px;
+}
+
+.container-1,
+.container-2, 
+.container-3
+ {   
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    transition: all 2s;
+}
+
+
+.content {
+    padding: 30px 70px;
+    text-align: center; 
+} 
+h2 {
+    font-size: 25px;
+    padding: 10px;
+    letter-spacing: 10px;
+}
+.content-1 {
+    background-color: #af94bc;
+}
+.content-2 {
+    background-color: #d4e6b5;
+
+}
+.content-3 {
+    background-color: #a4c5bc;
+
+}
