@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+    width: 100%;
+    text-align: left;
+    padding: 0.4rem 1.4rem;
+    margin: 0.5rem;
+    border: 2px solid black;
+}
+.correct {
+    background-color:#26ae60 ;
+}
+.incorrect {
+    background-color: #D63031 ;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
+
+@media only screen and (max-width:640px) {
+    .btn {
+        width: 90%;
+        text-align: left;
+        padding: 0.4rem 1rem;
+        margin: 0.3rem;
+        border: 1px solid black;
+    }
+}
